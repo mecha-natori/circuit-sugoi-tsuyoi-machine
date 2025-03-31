@@ -1,3 +1,4 @@
+**/.direnv/
 *-backups
 *-save.kicad_pcb
 *-save.pro
@@ -15,6 +16,7 @@
 *.tmp
 *.xml
 *~
+.pre-commit-config.yaml
 \#auto_saved_files#
 _autosave-*
 fp-info-cache
