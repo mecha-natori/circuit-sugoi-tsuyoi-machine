@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "circuit-sugoi-tsuyoi-machine")(type "KiCad")(uri "${KIPRJMOD}/circuit-sugoi-tsuyoi-machine.pretty")(options "")(descr ""))
+)
