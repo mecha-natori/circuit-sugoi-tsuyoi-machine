@@ -1,0 +1,5 @@
+--- a/circuit-sugoi-tsuyoi-machine-cpl.csv
++++ b/circuit-sugoi-tsuyoi-machine-cpl.csv
+@@ -1 +1 @@
+-Ref,Val,Package,PosX,PosY,Rot,Side
++"Designator","Val","Package","Mid X","Mid Y","Rotation","Layer"

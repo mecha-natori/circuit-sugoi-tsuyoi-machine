@@ -19,5 +19,7 @@
 .pre-commit-config.yaml
 \#auto_saved_files#
 _autosave-*
+circuit-sugoi-tsuyoi-machine-v*.zip
 fp-info-cache
+out*/
 ~*.lck

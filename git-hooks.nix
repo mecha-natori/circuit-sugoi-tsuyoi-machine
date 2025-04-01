@@ -13,6 +13,7 @@
             editorconfig-checker = {
               enable = true;
               excludes = [
+                ".*.kicad_.*"
                 "flake.lock"
               ];
             };

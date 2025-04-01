@@ -4229,6 +4229,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2907089"
+			(at 151.13 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "60025bb4-3935-4a8c-b029-37478c087f1b")
 		)
@@ -4365,6 +4373,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2907089"
+			(at 140.97 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "304228d2-7513-45b1-bb18-a01b83044f15")
 		)
@@ -4433,6 +4449,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C14663"
+			(at 123.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4570,6 +4594,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C529360"
+			(at 99.06 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "37"
@@ -4826,6 +4858,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" ""
+			(at 54.61 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5a4c3290-aed7-4b9c-811a-501e1fb10860")
 		)
@@ -4900,6 +4940,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C14663"
+			(at 134.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5060,7 +5108,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e20465b-aec9-4653-8fd1-81ba799ec652")
 		(property "Reference" "D2"
-			(at 165.1 98.1074 90)
+			(at 165.1 96.8374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,8 +5116,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 165.1 100.6474 90)
+		(property "Value" "LED_ORANGE"
+			(at 165.1 99.3774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5111,6 +5159,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C84269"
+			(at 165.1 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -5181,6 +5238,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C14663"
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5451,6 +5516,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2907113"
+			(at 63.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "26e2484a-0cc7-4b23-ab1f-9a6f06e859cb")
 		)
@@ -5477,7 +5550,7 @@
 		(fields_autoplaced yes)
 		(uuid "9350bffc-7e5b-4b87-8ea3-b24f0dd94a9f")
 		(property "Reference" "D4"
-			(at 144.78 98.1074 90)
+			(at 144.78 96.8374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,8 +5558,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 144.78 100.6474 90)
+		(property "Value" "LED_GREEN"
+			(at 144.78 99.3774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5528,6 +5601,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C84264"
+			(at 144.78 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -5598,6 +5680,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C14663"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -5802,6 +5892,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2907089"
+			(at 161.29 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "949e8454-2f3e-4c53-949e-bf68040f4ccc")
 		)
@@ -5894,7 +5992,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb4cbd2b-4f06-4874-8d56-b887bdbfb558")
 		(property "Reference" "D1"
-			(at 175.26 98.1074 90)
+			(at 175.26 96.8374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,8 +6000,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 175.26 100.6474 90)
+		(property "Value" "LED_RED"
+			(at 175.26 99.3774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5945,6 +6043,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C84263"
+			(at 175.26 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -6083,6 +6190,14 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC PN" "C2907089"
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce88c068-4e8c-47a7-892e-27f798eac459")
 		)
@@ -6109,7 +6224,7 @@
 		(fields_autoplaced yes)
 		(uuid "d85a06f3-f328-425e-865d-cc499b091196")
 		(property "Reference" "D3"
-			(at 154.94 98.1074 90)
+			(at 154.94 96.8374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,8 +6232,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
-			(at 154.94 100.6474 90)
+		(property "Value" "LED_YELLOW"
+			(at 154.94 99.3774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6160,6 +6275,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C84268"
+			(at 154.94 101.9174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -6296,6 +6420,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC PN" "C14663"
+			(at 146.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
