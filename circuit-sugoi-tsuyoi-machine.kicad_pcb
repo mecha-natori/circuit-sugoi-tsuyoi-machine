@@ -4837,7 +4837,7 @@
 				)
 			)
 		)
-		(property "Value" "TJA1441AT"
+		(property "Value" "ATA6561-GAQW"
 			(at 0 3.4 0)
 			(layer "F.Fab")
 			(uuid "ac1a6e34-c457-442e-b1ee-2656be4f474d")
@@ -4848,7 +4848,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1441.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005991B.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4860,7 +4860,7 @@
 				)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver, separate VIO, silent mode, SO-8"
+		(property "Description" "High-Speed CAN Transceiver, separate VIO, standby pin, SO-8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4872,7 +4872,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C3234084"
+		(property "LCSC PN" "C2929602"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7783,7 +7783,7 @@
 				)
 			)
 		)
-		(property "LCSC PN" "C529360"
+		(property "LCSC PN" "C529413"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

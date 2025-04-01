@@ -1076,7 +1076,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TJA1441AT"
+	(symbol "ATA6561-GAQW"
 		(pin_names
 			(offset 1.016)
 		)
@@ -1092,7 +1092,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TJA1441AT"
+		(property "Value" "ATA6561-GAQW"
 			(at 1.27 8.89 0)
 			(effects
 				(font
@@ -1111,7 +1111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1441.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005991B.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1120,7 +1120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver, separate VIO, silent mode, SO-8"
+		(property "Description" "High-Speed CAN Transceiver, separate VIO, standby pin, SO-8"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1147,7 +1147,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TJA1441AT_0_1"
+		(symbol "ATA6561-GAQW_0_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -7.62)
@@ -1160,7 +1160,7 @@
 				)
 			)
 		)
-		(symbol "TJA1441AT_1_1"
+		(symbol "ATA6561-GAQW_1_1"
 			(pin input line
 				(at -12.7 5.08 0)
 				(length 2.54)

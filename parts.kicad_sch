@@ -1977,7 +1977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "circuit-sugoi-tsuyoi-machine:TJA1441AT")
+		(lib_id "circuit-sugoi-tsuyoi-machine:ATA6561-GAQW")
 		(at 116.84 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1995,7 +1995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TJA1441AT"
+		(property "Value" "ATA6561-GAQW"
 			(at 118.9833 40.64 0)
 			(effects
 				(font
@@ -2014,7 +2014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.nxp.com/docs/en/data-sheet/TJA1441.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/20005991B.pdf"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2023,7 +2023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver, separate VIO, silent mode, SO-8"
+		(property "Description" "High-Speed CAN Transceiver, separate VIO, standby pin, SO-8"
 			(at 116.84 50.8 0)
 			(effects
 				(font
@@ -2032,7 +2032,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC PN" "C3234084"
+		(property "LCSC PN" "C2929602"
 			(at 116.84 50.8 0)
 			(effects
 				(font
