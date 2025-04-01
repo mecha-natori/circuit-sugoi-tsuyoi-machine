@@ -114,7 +114,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "out-v1/")
+			(outputdirectory "out/")
 		)
 	)
 	(net 0 "")
@@ -7748,7 +7748,7 @@
 				)
 			)
 		)
-		(property "Value" "STM32G473RBTx"
+		(property "Value" "STM32G474RBTx"
 			(at 0 7.4 0)
 			(layer "F.Fab")
 			(uuid "3a0b60fd-fc04-4516-98fa-22d872eeefab")
@@ -7759,7 +7759,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g473rb.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g474rb.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)

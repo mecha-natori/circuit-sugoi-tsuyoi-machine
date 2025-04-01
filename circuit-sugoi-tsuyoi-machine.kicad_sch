@@ -451,7 +451,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_ST_STM32G4:STM32G473RBTx"
+		(symbol "MCU_ST_STM32G4:STM32G474RBTx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -464,7 +464,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "STM32G473RBTx"
+			(property "Value" "STM32G474RBTx"
 				(at 10.16 46.99 0)
 				(effects
 					(font
@@ -483,7 +483,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g473rb.pdf"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g474rb.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -501,7 +501,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Arm Cortex-M4 STM32G4 STM32G4x3"
+			(property "ki_keywords" "Arm Cortex-M4 STM32G4 STM32G4x4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -519,7 +519,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "STM32G473RBTx_0_1"
+			(symbol "STM32G474RBTx_0_1"
 				(rectangle
 					(start -15.24 -45.72)
 					(end 15.24 45.72)
@@ -532,7 +532,7 @@
 					)
 				)
 			)
-			(symbol "STM32G473RBTx_1_1"
+			(symbol "STM32G474RBTx_1_1"
 				(pin input line
 					(at -17.78 40.64 0)
 					(length 2.54)
@@ -796,6 +796,7 @@
 						)
 					)
 					(alternate "ADC2_IN11" bidirectional line)
+					(alternate "HRTIM1_EEV10" bidirectional line)
 					(alternate "OPAMP1_VINM" bidirectional line)
 					(alternate "OPAMP1_VINM1" bidirectional line)
 					(alternate "OPAMP1_VINM_SEC" bidirectional line)
@@ -826,6 +827,8 @@
 						)
 					)
 					(alternate "COMP6_OUT" bidirectional line)
+					(alternate "HRTIM1_CHF1" bidirectional line)
+					(alternate "HRTIM1_EEV10" bidirectional line)
 					(alternate "I2C4_SCL" bidirectional line)
 					(alternate "I2S2_MCK" bidirectional line)
 					(alternate "TIM3_CH1" bidirectional line)
@@ -849,6 +852,8 @@
 						)
 					)
 					(alternate "COMP5_OUT" bidirectional line)
+					(alternate "HRTIM1_CHF2" bidirectional line)
+					(alternate "HRTIM1_FLT5" bidirectional line)
 					(alternate "I2C4_SDA" bidirectional line)
 					(alternate "I2S3_MCK" bidirectional line)
 					(alternate "TIM3_CH2" bidirectional line)
@@ -872,6 +877,7 @@
 						)
 					)
 					(alternate "COMP7_OUT" bidirectional line)
+					(alternate "HRTIM1_CHE1" bidirectional line)
 					(alternate "I2C3_SCL" bidirectional line)
 					(alternate "TIM20_CH3" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
@@ -898,6 +904,7 @@
 					(alternate "DAC2_EXTI9" bidirectional line)
 					(alternate "DAC3_EXTI9" bidirectional line)
 					(alternate "DAC4_EXTI9" bidirectional line)
+					(alternate "HRTIM1_CHE2" bidirectional line)
 					(alternate "I2C3_SDA" bidirectional line)
 					(alternate "I2S_CKIN" bidirectional line)
 					(alternate "TIM3_CH4" bidirectional line)
@@ -925,6 +932,7 @@
 					(alternate "DAC2_EXTI10" bidirectional line)
 					(alternate "DAC3_EXTI10" bidirectional line)
 					(alternate "DAC4_EXTI10" bidirectional line)
+					(alternate "HRTIM1_FLT6" bidirectional line)
 					(alternate "I2S3_CK" bidirectional line)
 					(alternate "SPI3_SCK" bidirectional line)
 					(alternate "TIM8_CH1N" bidirectional line)
@@ -950,6 +958,7 @@
 					)
 					(alternate "ADC1_EXTI11" bidirectional line)
 					(alternate "ADC2_EXTI11" bidirectional line)
+					(alternate "HRTIM1_EEV2" bidirectional line)
 					(alternate "I2C3_SDA" bidirectional line)
 					(alternate "SPI3_MISO" bidirectional line)
 					(alternate "TIM8_CH2N" bidirectional line)
@@ -973,6 +982,7 @@
 							)
 						)
 					)
+					(alternate "HRTIM1_EEV1" bidirectional line)
 					(alternate "I2S3_SD" bidirectional line)
 					(alternate "SPI3_MOSI" bidirectional line)
 					(alternate "TIM5_CH2" bidirectional line)
@@ -1526,6 +1536,7 @@
 					(alternate "ADC5_IN1" bidirectional line)
 					(alternate "COMP7_OUT" bidirectional line)
 					(alternate "FDCAN3_RX" bidirectional line)
+					(alternate "HRTIM1_CHA1" bidirectional line)
 					(alternate "I2C2_SDA" bidirectional line)
 					(alternate "I2C3_SCL" bidirectional line)
 					(alternate "I2S2_MCK" bidirectional line)
@@ -1560,6 +1571,7 @@
 					(alternate "DAC2_EXTI9" bidirectional line)
 					(alternate "DAC3_EXTI9" bidirectional line)
 					(alternate "DAC4_EXTI9" bidirectional line)
+					(alternate "HRTIM1_CHA2" bidirectional line)
 					(alternate "I2C2_SCL" bidirectional line)
 					(alternate "I2C3_SMBA" bidirectional line)
 					(alternate "I2S3_MCK" bidirectional line)
@@ -1593,6 +1605,7 @@
 					(alternate "DAC2_EXTI10" bidirectional line)
 					(alternate "DAC3_EXTI10" bidirectional line)
 					(alternate "DAC4_EXTI10" bidirectional line)
+					(alternate "HRTIM1_CHB1" bidirectional line)
 					(alternate "I2C2_SMBA" bidirectional line)
 					(alternate "SAI1_D1" bidirectional line)
 					(alternate "SAI1_SD_A" bidirectional line)
@@ -1625,6 +1638,7 @@
 					(alternate "ADC2_EXTI11" bidirectional line)
 					(alternate "COMP1_OUT" bidirectional line)
 					(alternate "FDCAN1_RX" bidirectional line)
+					(alternate "HRTIM1_CHB2" bidirectional line)
 					(alternate "I2S2_SD" bidirectional line)
 					(alternate "SPI2_MOSI" bidirectional line)
 					(alternate "TIM1_BKIN2" bidirectional line)
@@ -1654,6 +1668,7 @@
 					)
 					(alternate "COMP2_OUT" bidirectional line)
 					(alternate "FDCAN1_TX" bidirectional line)
+					(alternate "HRTIM1_FLT1" bidirectional line)
 					(alternate "I2S_CKIN" bidirectional line)
 					(alternate "TIM16_CH1" bidirectional line)
 					(alternate "TIM1_CH2N" bidirectional line)
@@ -1736,6 +1751,7 @@
 					(alternate "ADC1_EXTI15" bidirectional line)
 					(alternate "ADC2_EXTI15" bidirectional line)
 					(alternate "FDCAN3_TX" bidirectional line)
+					(alternate "HRTIM1_FLT2" bidirectional line)
 					(alternate "I2C1_SCL" bidirectional line)
 					(alternate "I2S3_WS" bidirectional line)
 					(alternate "SPI1_NSS" bidirectional line)
@@ -1769,6 +1785,7 @@
 					(alternate "ADC1_IN15" bidirectional line)
 					(alternate "ADC3_IN12" bidirectional line)
 					(alternate "COMP4_INP" bidirectional line)
+					(alternate "HRTIM1_FLT5" bidirectional line)
 					(alternate "OPAMP2_VINP" bidirectional line)
 					(alternate "OPAMP2_VINP_SEC" bidirectional line)
 					(alternate "OPAMP3_VINP" bidirectional line)
@@ -1801,6 +1818,7 @@
 					(alternate "ADC3_IN1" bidirectional line)
 					(alternate "COMP1_INP" bidirectional line)
 					(alternate "COMP4_OUT" bidirectional line)
+					(alternate "HRTIM1_SCOUT" bidirectional line)
 					(alternate "LPUART1_DE" bidirectional line)
 					(alternate "LPUART1_RTS" bidirectional line)
 					(alternate "OPAMP3_VOUT" bidirectional line)
@@ -1834,6 +1852,7 @@
 					(alternate "ADC4_EXTI2" bidirectional line)
 					(alternate "ADC5_EXTI2" bidirectional line)
 					(alternate "COMP4_INM" bidirectional line)
+					(alternate "HRTIM1_SCIN" bidirectional line)
 					(alternate "I2C3_SMBA" bidirectional line)
 					(alternate "LPTIM1_OUT" bidirectional line)
 					(alternate "OPAMP3_VINM" bidirectional line)
@@ -1866,6 +1885,8 @@
 					(alternate "ADC5_EXTI3" bidirectional line)
 					(alternate "CRS_SYNC" bidirectional line)
 					(alternate "FDCAN3_RX" bidirectional line)
+					(alternate "HRTIM1_EEV9" bidirectional line)
+					(alternate "HRTIM1_SCOUT" bidirectional line)
 					(alternate "I2S3_CK" bidirectional line)
 					(alternate "SAI1_SCK_B" bidirectional line)
 					(alternate "SPI1_SCK" bidirectional line)
@@ -1895,6 +1916,7 @@
 						)
 					)
 					(alternate "FDCAN3_TX" bidirectional line)
+					(alternate "HRTIM1_EEV7" bidirectional line)
 					(alternate "SAI1_MCLK_B" bidirectional line)
 					(alternate "SPI1_MISO" bidirectional line)
 					(alternate "SPI3_MISO" bidirectional line)
@@ -1926,6 +1948,7 @@
 						)
 					)
 					(alternate "FDCAN2_RX" bidirectional line)
+					(alternate "HRTIM1_EEV6" bidirectional line)
 					(alternate "I2C1_SMBA" bidirectional line)
 					(alternate "I2C3_SDA" bidirectional line)
 					(alternate "I2S3_SD" bidirectional line)
@@ -1959,6 +1982,8 @@
 					)
 					(alternate "COMP4_OUT" bidirectional line)
 					(alternate "FDCAN2_TX" bidirectional line)
+					(alternate "HRTIM1_EEV4" bidirectional line)
+					(alternate "HRTIM1_SCIN" bidirectional line)
 					(alternate "LPTIM1_ETR" bidirectional line)
 					(alternate "SAI1_FS_B" bidirectional line)
 					(alternate "TIM16_CH1N" bidirectional line)
@@ -1987,6 +2012,7 @@
 						)
 					)
 					(alternate "COMP3_OUT" bidirectional line)
+					(alternate "HRTIM1_EEV3" bidirectional line)
 					(alternate "I2C1_SDA" bidirectional line)
 					(alternate "I2C4_SDA" bidirectional line)
 					(alternate "LPTIM1_IN2" bidirectional line)
@@ -2017,6 +2043,7 @@
 					)
 					(alternate "COMP1_OUT" bidirectional line)
 					(alternate "FDCAN1_RX" bidirectional line)
+					(alternate "HRTIM1_EEV8" bidirectional line)
 					(alternate "I2C1_SCL" bidirectional line)
 					(alternate "SAI1_CK1" bidirectional line)
 					(alternate "SAI1_MCLK_A" bidirectional line)
@@ -2049,6 +2076,7 @@
 					(alternate "DAC3_EXTI9" bidirectional line)
 					(alternate "DAC4_EXTI9" bidirectional line)
 					(alternate "FDCAN1_TX" bidirectional line)
+					(alternate "HRTIM1_EEV5" bidirectional line)
 					(alternate "I2C1_SDA" bidirectional line)
 					(alternate "IR_OUT" bidirectional line)
 					(alternate "SAI1_D2" bidirectional line)
@@ -2081,6 +2109,7 @@
 					(alternate "DAC2_EXTI10" bidirectional line)
 					(alternate "DAC3_EXTI10" bidirectional line)
 					(alternate "DAC4_EXTI10" bidirectional line)
+					(alternate "HRTIM1_FLT3" bidirectional line)
 					(alternate "LPUART1_RX" bidirectional line)
 					(alternate "OPAMP3_VINM" bidirectional line)
 					(alternate "OPAMP3_VINM1" bidirectional line)
@@ -2116,6 +2145,7 @@
 					(alternate "ADC2_EXTI11" bidirectional line)
 					(alternate "ADC2_IN14" bidirectional line)
 					(alternate "COMP6_INP" bidirectional line)
+					(alternate "HRTIM1_FLT4" bidirectional line)
 					(alternate "LPUART1_TX" bidirectional line)
 					(alternate "OPAMP4_VINP" bidirectional line)
 					(alternate "OPAMP4_VINP_SEC" bidirectional line)
@@ -2145,6 +2175,7 @@
 					(alternate "ADC4_IN3" bidirectional line)
 					(alternate "COMP7_INM" bidirectional line)
 					(alternate "FDCAN2_RX" bidirectional line)
+					(alternate "HRTIM1_CHC1" bidirectional line)
 					(alternate "I2C2_SMBA" bidirectional line)
 					(alternate "I2S2_WS" bidirectional line)
 					(alternate "LPUART1_DE" bidirectional line)
@@ -2177,6 +2208,7 @@
 					(alternate "ADC3_IN5" bidirectional line)
 					(alternate "COMP5_INP" bidirectional line)
 					(alternate "FDCAN2_TX" bidirectional line)
+					(alternate "HRTIM1_CHC2" bidirectional line)
 					(alternate "I2S2_CK" bidirectional line)
 					(alternate "LPUART1_CTS" bidirectional line)
 					(alternate "OPAMP3_VINP" bidirectional line)
@@ -2211,6 +2243,7 @@
 					(alternate "ADC4_IN4" bidirectional line)
 					(alternate "COMP4_OUT" bidirectional line)
 					(alternate "COMP7_INP" bidirectional line)
+					(alternate "HRTIM1_CHD1" bidirectional line)
 					(alternate "OPAMP2_VINP" bidirectional line)
 					(alternate "OPAMP2_VINP_SEC" bidirectional line)
 					(alternate "OPAMP5_VINP" bidirectional line)
@@ -2244,6 +2277,7 @@
 					(alternate "ADC4_IN5" bidirectional line)
 					(alternate "COMP3_OUT" bidirectional line)
 					(alternate "COMP6_INM" bidirectional line)
+					(alternate "HRTIM1_CHD2" bidirectional line)
 					(alternate "I2S2_SD" bidirectional line)
 					(alternate "OPAMP5_VINM" bidirectional line)
 					(alternate "OPAMP5_VINM0" bidirectional line)
@@ -4541,7 +4575,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCU_ST_STM32G4:STM32G473RBTx")
+		(lib_id "MCU_ST_STM32G4:STM32G474RBTx")
 		(at 99.06 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4559,7 +4593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32G473RBTx"
+		(property "Value" "STM32G474RBTx"
 			(at 103.7433 158.75 0)
 			(effects
 				(font
@@ -4578,7 +4612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g473rb.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g474rb.pdf"
 			(at 99.06 107.95 0)
 			(effects
 				(font
@@ -4597,11 +4631,12 @@
 			)
 		)
 		(property "LCSC PN" "C529360"
-			(at 99.06 107.95 0)
+			(at 103.7433 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(pin "37"

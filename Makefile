@@ -1,5 +1,9 @@
 VER := 1
 
+.PHONY: all bom cpl garber
+
+all: bom cpl garber
+
 bom: circuit-sugoi-tsuyoi-machine-bom-raw.csv
 	sed '/,""$$/d' circuit-sugoi-tsuyoi-machine-bom-raw.csv >circuit-sugoi-tsuyoi-machine-bom.csv
 
